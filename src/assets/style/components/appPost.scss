@@ -1,0 +1,20 @@
+.appPost {
+  position: relative;
+  background-color: $gray-700;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  color: $white;
+  height: 100%;
+  border: 0.1rem solid $gray-700;
+  transition: all 0.1s ease-in-out;
+  &-url {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 100%;
+    height: 100%;
+  }
+  &:hover {
+    border-color: $primary;
+  }
+}

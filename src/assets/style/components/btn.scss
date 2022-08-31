@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  padding: rem(10px) rem(20px);
+  font-size: rem(16px);
+  font-weight: 400;
+  background-color: $primary;
+  color: #fff;
+  border-radius: 4rem;
+  border: 0.15rem solid transparent;
+  transition: all 0.15s ease-in-out;
+  &:active {
+    box-shadow: $box-shadow;
+  }
+  &:hover {
+    color: $primary;
+    background-color: transparent;
+  }
+  &-primary {
+    border-color: $primary;
+    background-color: $primary;
+  }
+  &-danger {
+    border-color: $danger;
+    background-color: $danger;
+    &:hover {
+      color: $danger;
+    }
+  }
+  &-lg {
+    padding: rem(18px) rem(40px);
+    font-size: rem(25px);
+  }
+}

@@ -1,0 +1,33 @@
+.theFooter {
+  .container {
+    border-top: 0.1rem solid $gray-500;
+  }
+  ul {
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+    li {
+      a {
+        display: inline-block;
+        padding: 0.5rem 1.2rem;
+        font-size: rem(22px);
+        font-weight: 700;
+      }
+    }
+  }
+  &-social {
+    ul {
+      display: flex;
+      flex-direction: row-reverse;
+      @include media-breakpoint-down(sm) {
+        flex-direction: row;
+      }
+      li {
+        a {
+          padding: 1rem;
+          font-size: 2.18rem;
+        }
+      }
+    }
+  }
+}
