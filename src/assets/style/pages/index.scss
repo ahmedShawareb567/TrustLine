@@ -4,7 +4,7 @@
     background: url("../../images/header-bg.png") no-repeat center center;
     background-size: cover;
     @include media-breakpoint-down(md) {
-      height: 70vh;
+      height: 80vh;
     }
   }
   .whyTrust {
