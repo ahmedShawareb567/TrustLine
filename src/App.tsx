@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="app">
-      <Router>
+      <Router basename="/TrustLine">
         <div>
           <TheHeader />
           <div className="app-content">
