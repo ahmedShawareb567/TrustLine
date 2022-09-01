@@ -1,7 +1,7 @@
 .homePage {
   &-intro {
     height: 100vh;
-    background: url("../../images/header-bg.png") no-repeat center center;
+    background: url("../images/header-bg.png") no-repeat center center;
     background-size: cover;
     @include media-breakpoint-down(md) {
       height: 80vh;
